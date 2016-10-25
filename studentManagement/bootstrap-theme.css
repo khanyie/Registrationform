@@ -14,6 +14,17 @@
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
 }
+$back-color: #F0F0F0;
+$green-border: #72B372;
+
+@mixin linear-gradient($top, $bottom) {
+  background: $top;
+  background: -webkit-linear-gradient($top, $bottom);
+	background: -moz-linear-gradient($top, $bottom);
+	background: -o-linear-gradient($top, $bottom);
+	background: linear-gradient($top, $bottom);
+}
+
 body {
  font-size: 20px; 
 }
