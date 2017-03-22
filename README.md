@@ -1,2 +1,2 @@
 # Registrationform
-Quircky30 new application from for new student
+Quircky30 new application form
